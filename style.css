@@ -30,6 +30,142 @@ body{
 }
 
 .header-images-item {
-    width: 31.5%;
-    border-radius: 8px;
+    width:31.5%;
+    border-radius:8px;
+}
+
+.main-content{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 24px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.summary{
+    padding: 29px 16px;
+    background-color: #fff;
+    display: flex;
+    border: solid 1px #e5e5e5;
+    box-shadow: 0px 2px 3px -2px;
+    margin-bottom: 15px;
+}
+
+.summary-img{
+    width: 25%;
+    height: auto;
+}
+
+.summary-content{
+    margin-right: 12px;
+}
+
+.summary-content-cmt{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cmt-item:not(:last-child){
+    padding: 0px 8px;
+    border-right: 1px solid #eee;
+}
+
+.cmt-item{
+    padding-left: 8px;
+}
+
+.cmt-item-prop{
+    font-weight: 500;
+    color: #519cea;
+    font-size:11px;
+    display: inline-block;
+}
+
+.cmt-item-cnt{
+    font-weight: 500;
+    color: #888;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.summary-content-dsc{
+    text-indent:2em; 
+    font-size:15px;
+    line-height: 26px;
+}
+
+.summary-content-tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+
+.tab-item{
+    width: 40%;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.tab-item-prop{
+    color: #333;
+    font-weight: bold;
+    width: 25%;
+    display: inline-block;
+}
+
+.tab-item-cnt{
+    color: #747474;
+    display: inline-block;
+}
+
+.info{
+    padding: 29px 16px;
+    background-color: #fff;
+    border: solid 1px #e5e5e5;
+    box-shadow: 0px 2px 3px -2px;
+    margin-bottom: 15px;
+}
+
+.info-top{
+    display: flex;
+    align-items: center;
+}
+
+.info-top-title{
+    font-size: 24px;
+    margin-left:-16px;
+    padding: 0px 16px;
+    border-left:solid 10px #003eb3
+}
+
+.info-top-line{
+    height: 1px;
+    background-color: #eee;
+    flex-basis:auto;
+    flex-grow: 1;
+}
+
+.info-tab{
+    margin-top: 25px;
+    margin-left: 11px;
+    margin-right: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-tab > .tab-item{
+    border-bottom: dashed 1px #ccc;
+    line-height: 38px;
+    width: 50%;
+}
+
+.info-tab > .tab-item > .tab-item-prop{
+    color: #999;
+    width: 15%;
+}
+
+.info-tab > .tab-item > .tab-item-cnt{
+    color: black;
 }
