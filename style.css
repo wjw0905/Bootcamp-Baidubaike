@@ -120,7 +120,7 @@ body{
     display: inline-block;
 }
 
-.info{
+.info , .actors{
     padding: 29px 16px;
     background-color: #fff;
     border: solid 1px #e5e5e5;
@@ -168,4 +168,40 @@ body{
 
 .info-tab > .tab-item > .tab-item-cnt{
     color: black;
+}
+
+.actors-list{
+    margin-top: 25px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.actors-list-item:not(:last-child){
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 17px;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.actors-list-item{
+    display: flex;
+}
+
+.actors-list-item > .list-img{
+    width: 16%;
+}
+
+.actors-list-item > .list-cnt{
+    margin-left: 13px;
+}
+
+.actors-list-item > .list-cnt > .role{
+    font-size: 18px;
+    color:#003eb3;
+    margin-bottom: 7px;
+}
+
+.actors-list-item > .list-cnt > .actor{
+    font-size: 14px;
+    margin-bottom: 13px;
 }
